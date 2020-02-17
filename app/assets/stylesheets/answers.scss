@@ -1,0 +1,35 @@
+// Place all the styles related to the answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.box {
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+.user {
+  color: #fd1015;
+  background: rgba(253,16,21,.1);
+}
+
+#button {
+  background-color: #fd1015;
+  color: #fff;
+  box-shadow: 0 2px 14px rgba(126,87,88,.1), 0 3px 6px rgba(0,0,0,.08);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 36px;
+  min-width: 95px;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .15s ease;
+}

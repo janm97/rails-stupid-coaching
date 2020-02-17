@@ -1,0 +1,16 @@
+ <div class="box">
+  <div class='container'>
+    <p class='response'><%= params['question'] %></p>
+    <p class= 'user'> ~ You</p>
+    <% if @question ==  "I am going to work"  %>
+      <p class='response'> I am going to work </p>
+    <% elsif @question[-1] ==  "?" %>
+      <p class='response'> Silly question, get dressed and go to work! </p>
+    <% else %>
+      <p class='response'> I don't care, get dressed and go to work! </p>
+    <% end %>
+    <p class= 'user'> ~ Coach</p>
+
+    <%= link_to "Ask another question", '/ask', id: 'button' %>
+  </div>
+</div>
